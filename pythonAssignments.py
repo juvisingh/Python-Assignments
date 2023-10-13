@@ -61,7 +61,7 @@ while bob == "james":
                     commonList.append(int(x))
         newSet = set(commonList)
         finalList = list(newSet)
-        print(finalList.sort())
+        print(sorted(finalList))
         function = input("What function would you like to preform? ")
     elif (function.lower() == "end"):
         bob = "not james"
