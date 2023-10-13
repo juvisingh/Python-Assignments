@@ -58,10 +58,10 @@ while bob == "james":
         for x in aList:
             for y in bList:
                 if (x == y):
-                    commonList.append(x)
+                    commonList.append(int(x))
         newSet = set(commonList)
         finalList = list(newSet)
-        print(finalList)
+        print(finalList.sort())
         function = input("What function would you like to preform? ")
     elif (function.lower() == "end"):
         bob = "not james"
